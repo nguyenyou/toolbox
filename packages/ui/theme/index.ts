@@ -1,2 +1,2 @@
-export { default as theme } from './main'
-export { default as dark } from './dark'
+export { default as dark } from "./dark";
+export { default as theme } from "./main";

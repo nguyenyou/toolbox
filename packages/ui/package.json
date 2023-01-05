@@ -1,6 +1,6 @@
 {
   "name": "@nguyenyou/ui",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",

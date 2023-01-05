@@ -1,5 +1,12 @@
 # web
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [86e1df3]
+  - @nguyenyou/ui@1.1.1
+
 ## 0.0.2
 
 ### Patch Changes

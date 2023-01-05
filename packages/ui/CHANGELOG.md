@@ -1,5 +1,11 @@
 # @nguyenyou/ui
 
+## 1.1.1
+
+### Patch Changes
+
+- 86e1df3: update readme
+
 ## 1.1.0
 
 ### Minor Changes

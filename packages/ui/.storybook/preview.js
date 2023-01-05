@@ -1,7 +1,6 @@
 import React from 'react'
-import { theme } from '../theme'
+import { dark } from '../theme'
 import '../css/reset.css'
-import './reset.css'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -14,6 +13,6 @@ export const parameters = {
 }
 
 const AppDecorator = (storyFn) => {
-  return <div className={theme}>{storyFn()}</div>
+  return <div className={dark}>{storyFn()}</div>
 }
 export const decorators = [AppDecorator]

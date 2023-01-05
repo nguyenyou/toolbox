@@ -4,6 +4,7 @@ export const vars = createThemeContract({
   color: {
     text: null,
     textLighter: null,
+    buttonText: null,
     link: null,
     linkHover: null,
     linkActive: null,

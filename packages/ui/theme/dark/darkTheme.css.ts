@@ -2,22 +2,22 @@ import { vars } from '../vars.css'
 import { createTheme } from '@vanilla-extract/css'
 import { gray, blue, orange, red,yellow, green, teal, cyan, violet } from 'tailwindcss/colors'
 
-const mainTheme = createTheme(vars, {
+const darkTheme = createTheme(vars, {
   color: {
     text: gray[900],
     textLighter: gray[400],
-    buttonText: 'white',
+    buttonText: gray[800],
     link: blue[500],
     linkHover: blue[400],
     linkActive: blue[600],
     border: gray[200],
     line: gray[100],
     background: gray[100],
-    primary: teal[500],
+    primary: teal[200],
     primaryLight: teal[300],
     primaryDark: teal[400],
     primaryBG: teal[100],
-    secondary: violet[500],
+    secondary: violet[200],
     secondaryLight: violet[400],
     secondaryDark: violet[500],
     secondaryBG: violet[100],
@@ -28,4 +28,4 @@ const mainTheme = createTheme(vars, {
   }
 })
 
-export default mainTheme
+export default darkTheme

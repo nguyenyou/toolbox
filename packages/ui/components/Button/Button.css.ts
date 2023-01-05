@@ -78,31 +78,31 @@ export const buttonRecipe = recipe({
     },
     color: {
       primary: {
-        color: 'white',
+        color: vars.color.buttonText,
         backgroundColor: vars.color.primary,
         borderColor: vars.color.primary,
         ':hover': {
-          color: 'white',
+          color: vars.color.buttonText,
           backgroundColor: vars.color.primaryLight,
           borderColor: vars.color.primaryLight,
         },
         ':active': {
-          color: 'white',
+          color: vars.color.buttonText,
           backgroundColor: vars.color.primaryDark,
           borderColor: vars.color.primaryDark,
         },
       },
       secondary: {
-        color: 'white',
+        color: vars.color.buttonText,
         backgroundColor: vars.color.secondary,
         borderColor: vars.color.secondary,
         ':hover': {
-          color: 'white',
+          color: vars.color.buttonText,
           backgroundColor: vars.color.secondaryLight,
           borderColor: vars.color.secondaryLight,
         },
         ':active': {
-          color: 'white',
+          color: vars.color.buttonText,
           backgroundColor: vars.color.secondaryDark,
           borderColor: vars.color.secondaryDark,
         },
@@ -156,18 +156,18 @@ export const buttonRecipe = recipe({
         disabled: true,
       },
       style: {
-        color: 'white',
+        color: vars.color.buttonText,
         background: `${vars.color.neutral} !important`,
         borderColor: `${vars.color.neutral} !important`,
 
         ':hover': {
-          color: 'white',
+          color: vars.color.buttonText,
           background: `${vars.color.neutral} !important`,
           borderColor: `${vars.color.neutral} !important`,
         },
 
         ':active': {
-          color: 'white',
+          color: vars.color.buttonText,
           background: `${vars.color.neutral} !important`,
           borderColor: `${vars.color.neutral} !important`,
         },

@@ -1,5 +1,11 @@
 # @nguyenyou/ui
 
+## 1.1.0
+
+### Minor Changes
+
+- 23b8483: theme provider
+
 ## 1.0.2
 
 ### Patch Changes

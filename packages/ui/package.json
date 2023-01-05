@@ -52,6 +52,7 @@
     "@vanilla-extract/recipes": "0.3.0",
     "@vanilla-extract/sprinkles": "1.5.1",
     "clsx": "1.2.1",
+    "next-themes": "0.2.1",
     "tailwindcss": "3.2.4"
   }
 }
